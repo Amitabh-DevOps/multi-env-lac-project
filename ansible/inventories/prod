@@ -1,0 +1,9 @@
+[servers]
+server1 ansible_host=3.252.144.3
+server2 ansible_host=63.34.12.124
+server3 ansible_host=34.244.48.139
+
+[servers:vars]
+ansible_user=ubuntu
+ansible_ssh_private_key_file=/home/amitabh/devops-key
+ansible_python_interpreter=/usr/bin/python3
